@@ -1,0 +1,41 @@
+.videoCard{
+    border: 1px solid black;
+    flex: 0.25;
+    max-height: 250px;
+    min-width: 22%;
+    margin-right: 20px;
+    margin-bottom:30px ;
+}
+.VideoCard__thumbnail{
+    width: 100% ;
+}
+.videoCard__info{
+    display: flex;
+    margin-top: 10px;
+}
+.videoCard__title{
+    font: size 14px;
+    font-weight: bold;
+    margin-bottom:6px ;
+}
+.videoCard__channelName{
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+}
+.videoCard__infoText{
+    flex: 1;
+    /* border:1px solid black ; */
+    margin-left: 12px;
+}
+.videoCard__channelImageContainer{
+    height: 36px;
+    width: 36px;
+    border: 1px solid rgb(205, 64, 25);
+    border-radius: 50%;
+}
+.videoCard__channelImageContainer > img{
+    width: 100%;
+
+}
+
+

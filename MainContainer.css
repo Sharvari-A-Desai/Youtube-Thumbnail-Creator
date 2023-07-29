@@ -1,0 +1,18 @@
+.mainContainer{
+    background-color: #f9f9f9;
+    flex: 0.8;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.mainContainer__title{
+    font-size: 20px;
+}
+.mainContainer__vdos{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
